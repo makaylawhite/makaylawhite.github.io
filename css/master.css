@@ -1,0 +1,117 @@
+/* Cascading stylesheet for the portfolio */
+
+  a {
+    color: #213B3B;
+    text-decoration: none;
+    transform: scale(1)
+  }
+
+  a:hover {
+    color: white;
+    transform: scale(1.25);
+
+  }
+
+  body {
+    background-color: #213B3B;
+    color: #DEA18F;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+  }
+   button {
+     color: #DEA18F;
+     background-color: #213B3B;
+     border-radius: 0.5rem;
+     display: inline-block;
+     font-family: Montserrat, sans-serif;
+     font-size: 1.25rem;
+     margin: 0.5rem 0.75rem;
+     padding: 1rem;
+     text-align: center;
+     text-decoration: none;
+     transform: scale(1);
+  }
+   button:hover {
+     color: White;
+     background-color: #213B3B;
+     transform: scale(1.25);
+  }
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    color: linear-gradient(#DEA18F, #CB7666);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    color: white;
+    font-family: Bebas Neue, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 1rem;
+  }
+
+  h4 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h5 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 0.5rem;
+  }
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  p  {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .about{
+    background-image: linear-gradient(#213B3B, #111E1E);
+    border: solid .25rem;
+    margin: auto;
+    padding: 2rem;
+    width: 70%;
+    height: 120%;
+  }
+  .back-home{
+    background-color: #DEA18F;
+    border-radius: 0.5rem;
+    color: #213B3B;
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.10rem;
+    margin: auto;
+    padding: 0.75rem;
+  }
+
+  .back-home:hover {
+    color: #213B3B;
+    background-color: white;
+    transform: scale(1.25);
+  }
+  .contact{
+    background: linear-gradient(#DEA18F, #CB7666);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .resume{
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
